@@ -37,7 +37,7 @@ fn main() {
     disp.reset(&mut reset, &mut delay);
     disp.init().unwrap();
     disp.flush().unwrap();
-    disp.set_rotation(DisplayRotation::Rotate90);
+    disp.set_rotation(DisplayRotation::Rotate180);
     
     disp.set_pixel(10, 10, 1);
     disp.set_pixel(20, 20, 1);
